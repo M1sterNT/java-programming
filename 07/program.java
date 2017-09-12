@@ -7,7 +7,7 @@ class program {
        System.out.println("Price => ");
        int price = scan.nextInt();
        System.out.println("Money => ");
-       double money = scan.nextInt();
+       double money = scan.nextDouble();
        double total = amount * price;
        if(total > 300) total = total - (total* 0.03);
        total = total + (total * 0.07);
