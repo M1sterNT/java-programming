@@ -6,6 +6,6 @@ class program {
     int age = 0;
     age = scan.nextInt();
     if(age > 60 )
-        System.out.println("Retire");
+        System.out.println("Retire T_T");
     }
 }
